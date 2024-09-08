@@ -13,14 +13,14 @@ const [state, setState] = useState(false)
 // Replace # path with your path
 const navigation = [
     { title: "Home", path: "/" },
-    { title: "Services", path: "#" },
+    { title: "Services", path: "/preview" },
     { title: "Menu", path: "/menu" },
     { title: "Gallery", path: "/gallery" }
 ];
 
 return (
 
-<header className= "bg-pink-100">
+<header className= "bg-pink-200">
 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
   <div className="flex justify-between ">
     <Icon
@@ -30,7 +30,7 @@ return (
       style={{ color: "#ec4899" }}
     />
     <span className="p-2 font-serif  font-semibold font-800">
-      Homemade Sweetness
+      Homemade <span>Sweetness</span>
     </span>
 
     <button
