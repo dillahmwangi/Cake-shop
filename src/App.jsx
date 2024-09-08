@@ -6,6 +6,7 @@ import Menu from './Pages/Menu'
 import { Navbar } from './Components/Navbar';
 import {Cart} from './Pages/Cart'
 import Gallery from './Pages/Gallery';
+import Preview from './Pages/Preview';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/menu' element = {<Menu/>}/>
       <Route path='/cart' element = {<Cart/>}/>
       <Route path='/gallery' element = {<Gallery/>}/>
+      <Route path = '/preview' element ={<Preview/>}/>
       </Routes>
      </main>
    <Footer/>
