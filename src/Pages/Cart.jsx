@@ -2,10 +2,12 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 import cake from '../assets/cake-one.png'
 import cake3 from '../assets/cake3.png'
+import Layout from '../Components/Layout'
 
 
 export const Cart = () => {
   return (
+    <Layout>
     <div className="bg-pink-100">
     <div className="font-sans py-16 items-center mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
     <div className="font-sans md:max-w-4xl max-md:max-w-xl mx-auto py-4">
@@ -196,6 +198,7 @@ export const Cart = () => {
         </div>
         </div>
         </div>
+        </Layout>
   )
 }
 
