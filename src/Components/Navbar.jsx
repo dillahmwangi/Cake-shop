@@ -5,8 +5,7 @@ import { Icon } from '@iconify/react';
 // import cake3 from '../assets/cake3.png'
 
 
-
-export const Navbar = () => {
+ const Navbar = () => {
 
 const [state, setState] = useState(false)
 
@@ -78,10 +77,10 @@ return (
   >
     <li className="order-2  md:pb-3">
       <Link
-        to="/"
+        to="/cart"
         className="py-3 px-6 rounded-md shadow-md text-white text-center bg-pink-500 font-semibold focus:shadow-none block md:inline"
       >
-        SIGN IN
+        View Cart
       </Link>
     </li>
     <div className="order-1 flex-1 justify-center items-center space-y-5 md:flex md:space-x-6 md:space-y-0">
@@ -99,3 +98,4 @@ return (
 </header>
 
     )}
+  export default Navbar;
