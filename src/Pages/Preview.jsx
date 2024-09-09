@@ -1,10 +1,11 @@
 import React from 'react'
 import cake from '../assets/cake-one.png'
 
+    const Preview = () =>{
 
-const Preview = ({product, onClose }) => {
 
   return (
+   
     <div className="font-sans p-8 tracking-wide max-lg:max-w-2xl mx-auto bg-pink-100">
             <div className="grid items-start grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="space-y-4 text-center lg:sticky top-10">
@@ -95,7 +96,7 @@ const Preview = ({product, onClose }) => {
 
                         <div className="mt-8">
                             <h3 className="text-lg font-bold text-gray-800">Product Description</h3>
-                            <p className="text-sm text-gray-600 mt-4">Step up your footwear game with our premium men's shoes. Designed for comfort and crafted with a contemporary aesthetic, these versatile shoes are a must-have addition to your wardrobe. The supple and breathable materials ensure all-day comfort, making them perfect for everyday wear.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae libero repellat quae! Quia, tenetur explicabo eaque quos sed aspernatur nemo facilis tempora, officiis cum nisi odit vero rem amet omnis!</p>
                         </div>
 
                         <ul className="space-y-3 list-disc mt-6 pl-4 text-sm text-gray-600 pb-2">
@@ -107,14 +108,15 @@ const Preview = ({product, onClose }) => {
                     </div>
 
                     <button
-                    onClick={onClose}
                     className="min-w-[200px] px-4 py-3 bg-pink-500 hover:bg-pink-500 text-white text-sm  font-semibold rounded-lg">
                     Close
                 </button>
                 </div>
             </div>
         </div>
-  )
-}
+    )
+
+
+    }
 
 export default Preview
