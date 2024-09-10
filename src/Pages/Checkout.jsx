@@ -13,7 +13,7 @@ const Checkout = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-32 h-28 max-lg:w-24 max-lg:h-24 flex p-3 shrink-0 bg-gray-300 rounded-md">
-                    <img src='https://readymadeui.com/images/product10.webp' className="w-full object-contain" />
+                    <img src='https://readymadeui.com/images/product10.webp' className="w-full object-contain" alt=''/>
                   </div>
                   <div className="w-full">
                     <h3 className="text-base text-white">Split Sneakers</h3>
@@ -27,7 +27,7 @@ const Checkout = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-32 h-28 max-lg:w-24 max-lg:h-24 flex p-3 shrink-0 bg-gray-300 rounded-md">
-                    <img src='https://readymadeui.com/images/product11.webp' className="w-full object-contain" />
+                    <img src='https://readymadeui.com/images/product11.webp' className="w-full object-contain" alt=''/>
                   </div>
                   <div className="w-full">
                     <h3 className="text-base text-white">Velvet Boots</h3>
@@ -41,7 +41,7 @@ const Checkout = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-32 h-28 max-lg:w-24 max-lg:h-24 flex p-3 shrink-0 bg-gray-300 rounded-md">
-                    <img src='https://readymadeui.com/images/product14.webp' className="w-full object-contain" />
+                    <img src='https://readymadeui.com/images/product14.webp' className="w-full object-contain" alt='' />
                   </div>
                   <div className="w-full">
                     <h3 className="text-base text-white">Echo Elegance</h3>
@@ -55,7 +55,8 @@ const Checkout = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-32 h-28 max-lg:w-24 max-lg:h-24 flex p-3 shrink-0 bg-gray-300 rounded-md">
-                    <img src='https://readymadeui.com/images/product13.webp' className="w-full object-contain" />
+                    <img src='https://readymadeui.com/images/product13.webp' className="w-full object-contain" alt='
+                    '/>
                   </div>
                   <div className="w-full">
                     <h3 className="text-base text-white">Pumps</h3>
