@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   const location = useLocation();
 
   // Define an array of routes where you want to hide the footer
-  const hideFooterRoutes = []; // Add routes as needed
+  const hideFooterRoutes = ['/checkOut']; // Add routes as needed
 
   // Check if the current route is in the array of routes where footer should be hidden
   const shouldHideFooter = hideFooterRoutes.includes(location.pathname);
