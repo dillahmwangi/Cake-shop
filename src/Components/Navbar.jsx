@@ -13,7 +13,7 @@ const [state, setState] = useState(false)
 const navigation = [
     { title: "Home", path: "/" },
     { title: "Services", path: "/preview" },
-    { title: "Menu", path: "/menu" },
+    { title: "Menu", path: "/checkOut" },
     { title: "Gallery", path: "/gallery" }
 ];
 
