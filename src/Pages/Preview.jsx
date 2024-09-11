@@ -1,11 +1,12 @@
 import React from 'react'
 import cake from '../assets/cake-one.png'
+import Layout from '../Components/Layout'
 
     const Preview = () =>{
 
 
   return (
-   
+   <Layout>
     <div className="font-sans p-8 tracking-wide max-lg:max-w-2xl mx-auto bg-pink-100">
             <div className="grid items-start grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="space-y-4 text-center lg:sticky top-10">
@@ -114,6 +115,7 @@ import cake from '../assets/cake-one.png'
                 </div>
             </div>
         </div>
+        </Layout>
     )
 
 
