@@ -19,7 +19,7 @@ const navigation = [
 
 return (
 
-<header className= "bg-pink-200">
+<header className= "bg-pink-200 ">
 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
   <div className="flex justify-between ">
     <Icon
