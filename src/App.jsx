@@ -6,6 +6,8 @@ import {Cart} from './Pages/Cart'
 import Gallery from './Pages/Gallery';
 import Preview from './Pages/Preview';
 import Checkout from './Pages/Checkout';
+import Modal from './Components/Modal';
+import Payment from './Pages/Payment';
 
 
 
@@ -23,6 +25,9 @@ function App() {
       <Route path='/gallery' element = {<Gallery/>}/>
       <Route path = '/preview' element ={<Preview/>}/>
       <Route path = '/checkOut' element ={<Checkout/>}/>
+      <Route path = '/modal' element ={<Modal/>}/>
+      <Route path = '/payment' element ={<Payment/>}/>
+      
       </Routes>
 
     </Router>
