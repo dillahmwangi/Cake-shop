@@ -25,7 +25,7 @@ import Layout from '../Components/Layout'
                     </div>
                 </div>
 
-                <div className="max-w-xl">
+                <div className="max-w-md">
                     <div>
                         <h2 className="text-2xl font-extrabold text-gray-800">Dark blue sneakers with white laces</h2>
                         <p className="text-sm text-gray-600 mt-2">Well-Versed Commerce</p>
