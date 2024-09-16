@@ -5,7 +5,7 @@ const Payment = () => {
   return (
     <Layout>
 
-    <div className="flex flex-col bg-pink-100">
+    {/* <div className="flex flex-col bg-pink-100">
     <section className="mt-4 mx-auto max-w-screen-xl pb-8 items-center lg:flex md:px-8">
       <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -44,10 +44,10 @@ const Payment = () => {
         </div>
       </div>
       </section>
-    </div>
+    </div> */}
 
-    <div class="overflow-x-auto font-[sans-serif]">
-      <table class="min-w-full bg-white">
+    <div class="overflow-x-auto font-[sans-serif] mt-4 mx-auto max-w-screen-xl pb-8 items-center lg:flex md:px-8 bg-pink-100">
+      <table class="min-w-full bg-pink-200">
         <thead class="bg-gray-100 whitespace-nowrap">
           <tr>
             <th class="pl-4 w-8">
