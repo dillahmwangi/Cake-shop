@@ -332,7 +332,7 @@ export const Cart = () => {
           <li class="flex flex-wrap gap-3 text-base py-3">Tax <span class="ml-auto font-bold">$4.00</span></li>
           <li class="flex flex-wrap gap-3 text-base py-3 font-bold">Total <span class="ml-auto">$45.00</span></li>
         </ul>
-        <button type="button" class="mt-6 text-base tracking-wide px-5 py-2.5 w-full bg-gray-800 hover:bg-gray-900 text-white rounded-lg">Make Payment</button>
+        <button type="button" class="mt-6 text-base tracking-wide px-5 py-2 justify-left bg-pink-500 hover:bg-pink-600 text-white rounded-lg">Make Payment</button>
       </div>
     </div>
     </div>
