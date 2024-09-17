@@ -3,7 +3,7 @@
 import cake from '../assets/cake-one.png'
 import cake3 from '../assets/cake3.png'
 import Layout from '../Components/Layout'
-// import Preview from './Preview';
+import Preview from './Preview';
 
 
 const Gallery = () => {
