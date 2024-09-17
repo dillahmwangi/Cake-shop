@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import cake from '../assets/cake-one.png'
-import cake3 from '../assets/cake3.png'
+// import cake3 from '../assets/cake3.png'
 import Layout from '../Components/Layout'
 
 
@@ -198,8 +198,8 @@ export const Cart = () => {
         </div>
         </div>
         </div> */}
-
-<div class="font-sans bg-white max-w-6xl mx-auto p-4">
+<div className='bg-pink-100'>
+<div class="font-sans max-w-6xl mx-auto p-4">
       <h2 class="text-3xl font-bold text-gray-800">Your Cart</h2>
       <div class="overflow-x-auto">
         <table class="mt-12 w-full border-collapse divide-y">
@@ -219,7 +219,7 @@ export const Cart = () => {
               <td class="px-2 py-4">
                 <div class="flex items-center gap-4 w-max">
                   <div class="h-32 shrink-0">
-                    <img src='https://readymadeui.com/images/product6.webp' class="w-full h-full object-contain rounded-lg" />
+                    <img src={cake} class="w-full h-full object-contain rounded-lg" alt=''/>
                   </div>
                   <div>
                     <p class="text-base font-bold text-gray-800">Black T-Shirt</p>
@@ -272,7 +272,7 @@ export const Cart = () => {
               <td class="px-2 py-4">
                 <div class="flex items-center gap-4 w-max">
                   <div class="h-32 shrink-0">
-                    <img src='https://readymadeui.com/images/product2.webp' class="w-full h-full object-contain rounded-lg" />
+                    <img src={cake} class="w-full h-full object-contain rounded-lg" alt=''/>
                   </div>
                   <div>
                     <p class="text-base font-bold text-gray-800">Gray T-Shirt</p>
@@ -334,6 +334,7 @@ export const Cart = () => {
         </ul>
         <button type="button" class="mt-6 text-base tracking-wide px-5 py-2.5 w-full bg-gray-800 hover:bg-gray-900 text-white rounded-lg">Make Payment</button>
       </div>
+    </div>
     </div>
         </Layout>
   )
