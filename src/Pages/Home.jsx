@@ -3,6 +3,7 @@ import cake from "../assets/cake-one.png";
 import cake3 from "../assets/cake3.png";
 import { Icon } from "@iconify/react";
 import Layout from "../Components/Layout";
+import Carousel from '../Components/Carousel';
 
 export const Home = () => {
   return (
@@ -48,7 +49,10 @@ export const Home = () => {
           </section>
         </div>
 
-        <div className="bg-pink-100 p-4 ">
+
+        <Carousel />
+
+        <div className="bg-pink-100 p-2">
           <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
             <div className="text-center space-y-4">
               <h1 className="text-gray-800 font-bold text-4xl md:text-5xl">
@@ -78,37 +82,9 @@ export const Home = () => {
             </div>
           </section>
         </div>
-        <div className="p-6">
-          <div class="bg-gray-50 w-full rounded-lg font-[sans-serif] overflow-hidden max-w-5md mx-auto py-3">
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center">
-              <div class="lg:col-span-2 p-10">
-                <h1 class="text-3xl font-bold text-gray-800">
-                  Master the Art of Programming and Unlock Possibilities!
-                </h1>
-                <p class="mt-4 text-sm text-gray-500 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  accumsan, nunc et tempus blandit, metus mi consectetur nibh, a
-                  pharetra felis turpis vitae ligula. Etiam laoreet velit nec
-                  neque ultrices, non consequat mauris tincidunt.
-                </p>
 
-                <button
-                  type="button"
-                  class="px-6 py-3 mt-8 rounded-lg text-white text-sm tracking-wider border-none outline-none bg-blue-600 hover:bg-blue-700"
-                >
-                  Get the Free Guide
-                </button>
-              </div>
-              <img
-                src="https://readymadeui.com/cardImg.webp"
-                class="w-full h-full object-cover shrink-0"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
 
-        <div className=" bg-pink-200">
+        <div className=" bg-pink-200 ">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
