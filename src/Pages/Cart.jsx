@@ -219,7 +219,7 @@ export const Cart = () => {
               <td class="px-2 py-4">
                 <div class="flex items-center gap-4 w-max">
                   <div class="h-32 shrink-0">
-                    <img src={cake} class="w-full h-full object-contain rounded-lg" alt=''/>
+                    <img src={cake} class="w-full h-full object-contain rounded-lg bg-pink-200" alt=''/>
                   </div>
                   <div>
                     <p class="text-base font-bold text-gray-800">Black T-Shirt</p>
@@ -272,7 +272,7 @@ export const Cart = () => {
               <td class="px-2 py-4">
                 <div class="flex items-center gap-4 w-max">
                   <div class="h-32 shrink-0">
-                    <img src={cake} class="w-full h-full object-contain rounded-lg" alt=''/>
+                    <img src={cake} class="w-full h-full object-contain rounded-lg bg-pink-200" alt=''/>
                   </div>
                   <div>
                     <p class="text-base font-bold text-gray-800">Gray T-Shirt</p>
@@ -332,7 +332,9 @@ export const Cart = () => {
           <li class="flex flex-wrap gap-3 text-base py-3">Tax <span class="ml-auto font-bold">$4.00</span></li>
           <li class="flex flex-wrap gap-3 text-base py-3 font-bold">Total <span class="ml-auto">$45.00</span></li>
         </ul>
-        <button type="button" class="mt-6 text-center tracking-wide px-5 py-2  bg-pink-500 hover:bg-pink-600 text-white rounded-md">Make Payment</button>
+        <div class="flex flex-wrap justify-end gap-4 mt-12">
+        <button type="button" class=" text-sm tracking-wide px-6 py-3  bg-pink-500 hover:bg-pink-600 text-white rounded-md">Make Payment</button>
+      </div>
       </div>
     </div>
     </div>
