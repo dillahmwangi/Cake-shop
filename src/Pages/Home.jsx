@@ -49,8 +49,12 @@ export const Home = () => {
           </section>
         </div>
 
-
-        <Carousel />
+        <div className="bg-pink-300">
+          <section className="mt-4 mx-auto max-w-screen-xl p-8 items-center lg:flex md:px-8">
+            
+        <Carousel/>
+          </section>
+        </div>
 
         <div className="bg-pink-100 p-2">
           <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
@@ -82,7 +86,6 @@ export const Home = () => {
             </div>
           </section>
         </div>
-
 
         <div className=" bg-pink-200 ">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
