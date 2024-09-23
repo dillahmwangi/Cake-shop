@@ -14,7 +14,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto py-8 bg-pink-300 relative  h-56 overflow-hidden rounded-lg md:h-96" data-carousel="slide" id=" default-carousel"  >
+    <div className="w-full max-w-4xl mx-auto py-8 relative bg-pink-300  h-56 overflow-hidden rounded-lg md:h-96" data-carousel="slide" id=" default-carousel"  >
       <div className="flex items-center justify-between space-x-4 p-4">
         {/* Previous Button */}
         <button onClick={handlePrev} className="text-gray-600 hover:text-gray-900 p-2">
