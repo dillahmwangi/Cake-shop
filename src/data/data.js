@@ -3,8 +3,6 @@ import cake3 from "../assets/cake3.png";
 
 // src/data.js
 const cakesOfTheWeek = [
-
-
     {
       id: 1,
       name: 'Chocolate Delight',
@@ -29,9 +27,9 @@ const cakesOfTheWeek = [
   ];
   
   export default cakesOfTheWeek;
- 
-  
 
+
+  
 export const selection = [
 
 ];
