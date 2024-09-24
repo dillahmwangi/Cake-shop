@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <Layout>
       <div className="bg-pink-200">
-        <div className="bg-pink-200 p-4">
+        <div className="bg-pink-200 bg-opacity-75 p-4 relative">
           <section className="mt-4 mx-auto max-w-screen-xl pb-8 items-center lg:flex md:px-8">
             <div className="space-y-4 flex-1 sm:text-center lg:text-left">
               <h1 className="text-gray-800 font-bold text-4xl md:text-5xl">
@@ -109,7 +109,7 @@ export const Home = () => {
             <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
               <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
                 <div className="p-6">
-                  {/* <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
+                  <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16px"
@@ -121,7 +121,7 @@ export const Home = () => {
                         data-original="#000000"
                       ></path>
                     </svg>
-                  </div> */}
+                  </div>
                   <div className="w-2/3 h-[220px] overflow-hidden mx-auto aspect-w-16 aspect-h-8">
                     <img
                       src={cake}
@@ -143,7 +143,7 @@ export const Home = () => {
 
               <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
                 <div className="p-6">
-                  {/* <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
+                  <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16px"
@@ -155,7 +155,7 @@ export const Home = () => {
                         data-original="#000000"
                       ></path>
                     </svg>
-                  </div> */}
+                  </div>
                   <div className="w-2/3 h-[220px] overflow-hidden mx-auto aspect-w-16 aspect-h-8">
                     <img
                       src={cake}
@@ -177,7 +177,7 @@ export const Home = () => {
 
               <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
                 <div className="p-6">
-                  {/* <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
+                  <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16px"
@@ -189,7 +189,7 @@ export const Home = () => {
                         data-original="#000000"
                       ></path>
                     </svg>
-                  </div> */}
+                  </div>
                   <div className="w-2/3 h-[220px] overflow-hidden mx-auto aspect-w-16 aspect-h-8">
                     <img
                       src={cake}
