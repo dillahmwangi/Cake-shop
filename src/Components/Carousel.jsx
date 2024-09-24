@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import cakesOfTheWeek from '../data/data.js';
+import { Icon } from "@iconify/react";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,16 +23,12 @@ const Carousel = () => {
   }, [currentIndex]);
 
   return (
-    <div data-hs-carousel='{
-      "loadingClasses": "opacity-0",
-      "dotsItemClasses": "hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500",
-      "isAutoPlay": true
-    }'>
+  
       <div className="w-full max-w-4xl mx-auto py-8 relative bg-pink-300 h-56 overflow-hidden rounded-lg md:h-96" data-carousel="slide" id="default-carousel">
         <div className="flex items-center justify-between space-x-4 p-4">
           {/* Previous Button */}
           <button onClick={handlePrev} className="text-gray-600 hover:text-gray-900 p-2">
-            &#8249; {/* Left arrow */}
+          <Icon icon="iconamoon:arrow-left-2-duotone" width="32" height="32"  style={{color: '#6d4672'}} /> {/* Left arrow */}
           </button>
 
           {/* Cake Information */}
@@ -52,11 +49,11 @@ const Carousel = () => {
 
           {/* Next Button */}
           <button onClick={handleNext} className="text-gray-600 hover:text-gray-900 p-2">
-            &#8250; {/* Right arrow */}
+          <Icon icon="iconamoon:arrow-right-2" width="32" height="32"  style={{color: '#6d4672'}} />{/* Right arrow */}
           </button>
         </div>
       </div>
-    </div>
+
   );
 };
 
