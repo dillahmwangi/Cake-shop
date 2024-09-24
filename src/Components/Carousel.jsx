@@ -16,7 +16,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 5000); // Slide every 5 seconds
+    }, 2000); // Slide every 5 seconds
 
     return () => clearInterval(interval); // Cleanup on component unmount
   }, [currentIndex]);
