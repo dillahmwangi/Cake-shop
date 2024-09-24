@@ -36,7 +36,7 @@ export const Home = () => {
                   height="32"
                   style={{ color: "#ec4899" }}
                 />
-                <Link to="/payment">0713289622</Link>
+                <Link to="tel:+254713289622">0713289622</Link>
               </div>
             </div>
             <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
